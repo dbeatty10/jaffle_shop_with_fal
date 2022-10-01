@@ -1,0 +1,10 @@
+jaffle_shop:
+  target: dev_with_fal
+  outputs:
+    # ...
+    dev_with_fal:
+      type: duckdb
+      path: "duck_db_dbt_dump.db"
+      # path has to be absolute, and the folder needs to exist
+      python_adapter:
+        type: fal
