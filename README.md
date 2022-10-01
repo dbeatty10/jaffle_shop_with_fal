@@ -18,7 +18,7 @@ source act1/bin/activate
 ```
 
 ## Run
-Build the dbt project, which builds a predictive model and produces a forecast.
+Build a predictive model and sales forecast.
 ```shell
 dbt build
 ```
@@ -30,13 +30,19 @@ Launch a DuckDB command-line interface (CLI) for interactive queries:
 duckcli jaffle_shop.duckdb
 ```
 
-Run some queries at the prompt and exit:
-Count the number of forecasts and examine a sample:
+Examine a sample of the individual forecasts and exit the CLI:
 ```
-select count(*) from orders_forecast_filter;
 select * from orders_forecast_filter limit 5;
 exit;
 ```
+
+## Wrap up 
+Deactivate the virtual environment when finished:
+
+```shell
+deactivate
+```
+
 
 ---
 
