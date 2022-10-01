@@ -13,3 +13,9 @@ git+https://github.com/fal-ai/fal.git@act1#egg=fal
 
 # Install dbt-fal
 git+https://github.com/fal-ai/fal.git@act1#egg=dbt-fal&subdirectory=adapter
+
+# Install prophet
+prophet
+
+# 3rd party CLI for DuckDB
+duckcli>=0.2.1

@@ -3,8 +3,10 @@ target/
 dbt_modules/
 logs/
 **/.DS_Store
-act1/
 venv/
 env/
+act1/
+**/*.duckdb
+**/*.duckdb.wal
 **/*.db
 **/*.db.wal
