@@ -1,15 +1,8 @@
-# Install dbt-duckdb
-dbt-duckdb>=1.2.0
-
-# Install dbt-core fork
-git+https://github.com/fal-ai/dbt-core.git@act1#egg=dbt-core&subdirectory=core
-git+https://github.com/fal-ai/dbt-core.git@act1#egg=dbt-tests-adapter&subdirectory=tests/adapter
-
-# dbt-postgres
-git+https://github.com/fal-ai/dbt-core.git@act1#egg=dbt-postgres&subdirectory=plugins/postgres
-
-# Install fal
-git+https://github.com/fal-ai/fal.git@act1#egg=fal
-
-# Install dbt-fal
-git+https://github.com/fal-ai/fal.git@act1#egg=dbt-fal&subdirectory=adapter
+dbt-duckdb==1.2.0
+dbt-core @ git+https://github.com/fal-ai/dbt-core.git@724a93e7346a0b661fd82bf02c34e101101f8f29#subdirectory=core
+dbt-tests-adapter @ git+https://github.com/fal-ai/dbt-core.git@724a93e7346a0b661fd82bf02c34e101101f8f29#subdirectory=tests/adapter
+dbt-postgres @ git+https://github.com/fal-ai/dbt-core.git@724a93e7346a0b661fd82bf02c34e101101f8f29#subdirectory=plugins/postgres
+fal @ git+https://github.com/fal-ai/fal.git@74365568174f046a4bf13774f91f6beea31432bc
+dbt-fal @ git+https://github.com/fal-ai/fal.git@74365568174f046a4bf13774f91f6beea31432bc#subdirectory=adapter
+prophet==1.1.1
+duckcli==0.2.1
