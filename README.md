@@ -33,11 +33,6 @@ To get up and running with this project:
 $ cd jaffle_shop_with_fal
 ```
 
-And checkout this feature branch:
-```shell
-$ git checkout dbeatty/fal-act1
-```
-
 4. Create a virtual environment and install dependencies
 
 ```shell
@@ -45,9 +40,7 @@ python3 -m venv act1
 source act1/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
-dbt --version
 source act1/bin/activate
-dbt --version
 ```
 
 5. Ensure your profile is setup correctly from the command line:
