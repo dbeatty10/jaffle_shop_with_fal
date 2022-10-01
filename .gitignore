@@ -5,8 +5,5 @@ logs/
 **/.DS_Store
 venv/
 env/
-act1/
 **/*.duckdb
 **/*.duckdb.wal
-**/*.db
-**/*.db.wal
