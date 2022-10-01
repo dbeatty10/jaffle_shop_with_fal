@@ -10,11 +10,11 @@ Example use case: developing a predictive model locally using Python DataFrames 
 Create a virtual environment and install dependencies:
 
 ```shell
-python3 -m venv act1
-source act1/bin/activate
+python3 -m venv env
+source env/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
-source act1/bin/activate
+source env/bin/activate
 ```
 
 ## Run
