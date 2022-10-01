@@ -28,12 +28,27 @@ To get up and running with this project:
 
 2. Clone this repository.
 
-3. Change into the `jaffle_shop` directory from the command line:
+3. Change into the `jaffle_shop_with_fal` directory from the command line:
 ```bash
-$ cd jaffle_shop
+$ cd jaffle_shop_with_fal
 ```
 
-4. Set up a profile called `jaffle_shop` to connect to a data warehouse by following [these instructions](https://docs.getdbt.com/docs/configure-your-profile). If you have access to a data warehouse, you can use those credentials – we recommend setting your [target schema](https://docs.getdbt.com/docs/configure-your-profile#section-populating-your-profile) to be a new schema (dbt will create the schema for you, as long as you have the right privileges). If you don't have access to an existing data warehouse, you can also setup a local postgres database and connect to it in your profile.
+And checkout this feature branch:
+```shell
+$ git checkout dbeatty/fal-act1
+```
+
+4. Create a virtual environment and install dependencies
+
+```shell
+python3 -m venv act1
+source act1/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+dbt --version
+source act1/bin/activate
+dbt --version
+```
 
 5. Ensure your profile is setup correctly from the command line:
 ```bash

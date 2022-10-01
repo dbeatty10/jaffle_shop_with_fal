@@ -1,0 +1,5 @@
+environments:
+  - name: ml
+    type: venv
+    requirements:
+      - prophet
