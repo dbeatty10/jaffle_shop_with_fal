@@ -32,7 +32,7 @@ duckcli jaffle_shop.duckdb
 
 Examine a sample of the individual forecasts and exit the CLI:
 ```
-select * from orders_forecast_filter limit 5;
+select * from orders_forecast_filter limit 1;
 exit;
 ```
 
