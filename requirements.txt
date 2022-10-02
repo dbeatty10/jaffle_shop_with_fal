@@ -1,4 +1,4 @@
-dbt-duckdb @ git+https://github.com/dbeatty10/dbt-duckdb.git@cda7da4cc2480965098265b1750a6e482490e224
+dbt-duckdb==1.2.0
 dbt-core @ git+https://github.com/fal-ai/dbt-core.git@724a93e7346a0b661fd82bf02c34e101101f8f29#subdirectory=core
 dbt-tests-adapter @ git+https://github.com/fal-ai/dbt-core.git@724a93e7346a0b661fd82bf02c34e101101f8f29#subdirectory=tests/adapter
 dbt-postgres @ git+https://github.com/fal-ai/dbt-core.git@724a93e7346a0b661fd82bf02c34e101101f8f29#subdirectory=plugins/postgres
